@@ -1,0 +1,17 @@
+{
+  "experimental": {
+    "tools": {
+      "enabled": true,
+      "servers": {
+        "browser": {
+          "url": "http://localhost:3000/sse"
+        }
+      }
+    }
+  },
+  "mcpServers": {
+    "browser": {
+      "url": "http://localhost:3000/sse"
+    }
+  }
+} 

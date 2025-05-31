@@ -1,0 +1,16 @@
+{
+  "name": "mcp",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "pnpm --filter @mcp/server dev",
+    "start": "pnpm --filter @mcp/server start",
+    "build:extension": "pnpm --filter @mcp/extension build"
+  },
+  "devDependencies": {
+    "pnpm": "^8.14.0"
+  }
+}
