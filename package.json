@@ -6,11 +6,23 @@
     "packages/*"
   ],
   "scripts": {
-    "dev": "pnpm --filter @mcp/server dev",
-    "start": "pnpm --filter @mcp/server start",
-    "build:extension": "pnpm --filter @mcp/extension build"
+    "start": "node packages/server/src/index.js",
+    "playwright-mode": "node packages/server/src/playwright-coordinator.js"
   },
   "devDependencies": {
     "pnpm": "^8.14.0"
-  }
+  },
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DeepakChander001/LocalMCP.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DeepakChander001/LocalMCP/issues"
+  },
+  "homepage": "https://github.com/DeepakChander001/LocalMCP#readme",
+  "description": ""
 }

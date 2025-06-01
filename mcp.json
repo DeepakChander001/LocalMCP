@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "browser": {
+      "command": "node",
+      "args": ["D:\\MCP\\packages\\server\\src\\mcp-stdio-server.js"]
+    }
+  }
+}

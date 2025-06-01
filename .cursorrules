@@ -1,12 +1,7 @@
-{
-  "experimental": {
-    "tools": {
-      "enabled": true,
-      "servers": {
-        "browser": {
-          "url": "http://localhost:3000/sse"
-        }
-      }
-    }
-  }
-}
+You have access to browser automation tools through the MCP browser server. The available tools are:
+- browser_navigate: Navigate to a URL
+- browser_click: Click an element using CSS selector  
+- browser_type: Type text into an input field
+- browser_screenshot: Take a screenshot
+
+When asked to automate browser tasks, use these tools by saying "I'll use the browser_navigate tool" etc.

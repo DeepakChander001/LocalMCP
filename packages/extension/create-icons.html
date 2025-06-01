@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<body>
+  <h3>Right-click each icon and save as PNG</h3>
+  <p>Connected (Green):</p>
+  <canvas id="connected" width="128" height="128" style="border:1px solid black"></canvas>
+  <p>Disconnected (Red):</p>
+  <canvas id="disconnected" width="128" height="128" style="border:1px solid black"></canvas>
+  
+  <script>
+    // Green connected icon
+    const c1 = document.getElementById('connected').getContext('2d');
+    c1.fillStyle = '#4CAF50';
+    c1.fillRect(0, 0, 128, 128);
+    c1.fillStyle = 'white';
+    c1.font = '80px Arial';
+    c1.fillText('✓', 25, 95);
+    
+    // Red disconnected icon
+    const c2 = document.getElementById('disconnected').getContext('2d');
+    c2.fillStyle = '#F44336';
+    c2.fillRect(0, 0, 128, 128);
+    c2.fillStyle = 'white';
+    c2.font = '80px Arial';
+    c2.fillText('✗', 25, 95);
+  </script>
+</body>
+</html>
